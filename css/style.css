@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Gotham-Bold;
+    src: url('../font/Gotham-Bold.otf');
+}
+@font-face {
+    font-family: Gotham-Medium;
+    src: url('../font/Gotham-Medium.otf');
+}
+body{
+	background: url('../images/background.jpg') no-repeat center #000;
+}
+.container{
+	margin: 3% 10%;
+}
+#logo{
+	background: url('../images/logo.png');
+	height: 146px;
+	width: 286px;
+	float: left;
+}
+h1.underconstruction{
+	float: left;
+	color: #fff;
+	font-family: Gotham-Medium;
+	margin-top: 40px;
+}
+.cfd{
+	background: url('../images/cfd.png');
+	width: 494px;
+	height: 30px;
+	float: left;
+	color: white;
+	font-size: 26px;
+	font-family: Gotham-Medium;
+	text-indent: 3px;
+}
+.clearfix{
+	clear: both;
+}
+.phone{
+	float: left;
+	color: white;
+	font-size: 64px;
+	font-family: Gotham-Bold;
+}
+.social{
+	float: right;
+}
+.social a{
+	margin: 5px;
+}
+.footer-upper{
+	width: 100%;
+	background: #fff;
+	float: left;font-size: 11px;
+}
+.footer-block-1{
+	width: 25%;
+	margin: 20px 0px 20px 80px;
+	float: left;
+}
+.footer-block-2{
+	width: 20%;
+	margin: 30px 30px;
+	float: left;
+	font-family: Gotham-Medium;
+	color: #737171;
+}
+.footer-block-2 hr{
+	width: 63%;
+	margin: 10px 0;
+}
+.footer-block-3{
+	width: 28%;
+	margin: 30px 30px;
+	float: left;
+	font-family: Gotham-Medium;
+	color: #737171;
+}
+.footer-block-3 hr{
+	width: 63%;
+	float: left;
+}
+.logobottom{
+	background: url('../images/logobottom.png');
+	width: 184px;
+	height: 95px;
+}
